@@ -16,6 +16,8 @@ const Aplication = {
     const json = JSON.stringify(this.todos);
     localStorage.setItem("todoCostas", json);
 
+    document.querySelectorAll(".todo__item").forEach(ItemActions.dragAndDrop);
+
     return json;
   },
 
