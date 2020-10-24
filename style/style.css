@@ -132,6 +132,8 @@ li::after {
 }
 
 .remove {
+  height: 0;
+  margin: 0;
   transition: .2s linear;
   margin-left: -500px;
   opacity: 0;
